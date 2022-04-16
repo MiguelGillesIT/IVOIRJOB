@@ -1,0 +1,10 @@
+/* NO SELECT + HIGHLIGHT COLOR */
+#no-copy {
+    user-select: none;
+}
+#no-copy::selection {
+    background: none;
+}
+#no-copy::-moz-selection {
+    background: none;
+}

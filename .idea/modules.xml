@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/IVOIRJOB.iml" filepath="$PROJECT_DIR$/.idea/IVOIRJOB.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/FRONT END IVOIRJOB/dashmix-32/Dashmix 3.2 by pixelcave/02 - Dashmix Source (HTML)/src/.idea/src.iml" filepath="$USER_HOME$/Desktop/FRONT END IVOIRJOB/dashmix-32/Dashmix 3.2 by pixelcave/02 - Dashmix Source (HTML)/src/.idea/src.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../testDB/.idea/testDB.iml" filepath="$PROJECT_DIR$/../testDB/.idea/testDB.iml" />
+    </modules>
+  </component>
+</project>

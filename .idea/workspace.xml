@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0e196ec7-6d72-4ccc-8d04-53676e80b264" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.env.example" afterPath="$PROJECT_DIR$/.env.example" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/landing.blade.php" afterPath="$PROJECT_DIR$/resources/views/landing.blade.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name=".env.example" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.env.example">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>modal-default-add-agent</find>
+      <find>modal-default-add-</find>
+      <find>modal-default-agent1</find>
+      <find>modal-default-add-agent1</find>
+      <find>modal-default-modify-job-offer1</find>
+      <find>modal-default-modify-group1</find>
+      <find>modal-default-delete-job-offer1</find>
+      <find>modal-default-delete-group1</find>
+      <find>modal-default-modify-critera11</find>
+      <find>RegisterNewAdmin</find>
+      <find>RegistrerNewAdmin</find>
+      <find>.nav-main-submenu</find>
+      <find>.h1,</find>
+      <find>RegistrerAccesGroup</find>
+      <find>RegisterAccessGroup</find>
+      <find>connexion</find>
+      <find>login_Candidate</find>
+      <find>show_Connexion_Page_Candidate</find>
+      <find>Candidat/</find>
+      <find>Tableau_de_bord_Candidate</find>
+      <find>pt-9</find>
+      <find>pb-9</find>
+      <find>w700</find>
+      <find>font-size</find>
+      <find>photo</find>
+      <find>pb-10</find>
+      <find>delete</find>
+      <find>document</find>
+      <find>rofil</find>
+      <find>Profil_Candidate</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <push-targets>
+      <push-target-info target-remote="origin2" target-branch="master" repo="$PROJECT_DIR$" source="master" />
+    </push-targets>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/resources/views/layouts/Candidat/base.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2021_06_02_140431_candidat.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2021_07_28_085924_add_groupe_to_candidate.php" />
+        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/resources/views/Administrateur/fichePoste.blade.php" />
+        <option value="$PROJECT_DIR$/app/Models/Candidat.php" />
+        <option value="$PROJECT_DIR$/app/Models/Administrateur.php" />
+        <option value="$PROJECT_DIR$/resources/views/compteBloque.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/Candidat/aside.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Candidat/offres.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Candidat/tableau_de_bord.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/errors/419.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/errors/404.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/errors/403.blade.php" />
+        <option value="$PROJECT_DIR$/public/assets/css/main_page_admin_entretien.min.css" />
+        <option value="$PROJECT_DIR$/public/assets/css/main_page_admin_Partie.min.css" />
+        <option value="$PROJECT_DIR$/public/assets/css/main_page_admin_Question.min.css" />
+        <option value="$PROJECT_DIR$/public/assets/css/main_page_admin_validation.min.css" />
+        <option value="$PROJECT_DIR$/public/assets/css/main_page_candidate_profile.min.css" />
+        <option value="$PROJECT_DIR$/public/assets/css/main_page_candidate_settings.min.css" />
+        <option value="$PROJECT_DIR$/public/assets/css/main_page_entretien.min.css" />
+        <option value="$PROJECT_DIR$/public/assets/css/main_page_offres.min.css" />
+        <option value="$PROJECT_DIR$/public/assets/css/main_page_tableau_de_bord.min.css" />
+        <option value="$PROJECT_DIR$/public/assets/css/Quiz.min.css" />
+        <option value="$PROJECT_DIR$/public/assets/css/main_page.min - Copie.css" />
+        <option value="$PROJECT_DIR$/public/assets/css/main_page.min.css" />
+        <option value="$PROJECT_DIR$/public/assets/css/E-mail.min.css" />
+        <option value="$PROJECT_DIR$/resources/views/Administrateur/quiz.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Administrateur/DetailsFiche.blade.php" />
+        <option value="$USER_HOME$/Desktop/FRONT END IVOIRJOB/dashmix-32/Dashmix 3.2 by pixelcave/02 - Dashmix Source (HTML)/src/FINAL PAGES/main_page_admin_groupes.html" />
+        <option value="$PROJECT_DIR$/app/Models/Group.php" />
+        <option value="$PROJECT_DIR$/resources/views/Administrateur/securite.blade.php" />
+        <option value="$PROJECT_DIR$/public/assets/css/main_page_admin_fiche.min.css" />
+        <option value="$PROJECT_DIR$/public/assets/css/main_page_admin_acces.min.css" />
+        <option value="$PROJECT_DIR$/public/assets/css/main_page_admin_profil.min.css" />
+        <option value="$PROJECT_DIR$/resources/views/Administrateur/Profil.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Administrateur/Groupe.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/landing.blade.php" />
+        <option value="$PROJECT_DIR$/public/assets/css/landing_page.min.css" />
+        <option value="$PROJECT_DIR$/resources/views/Administrateur/Accès.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/AdministrateurControlleur.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/CandidatController.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/Admin/aside.blade.php" />
+        <option value="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
+        <option value="$PROJECT_DIR$/../testDB/.env" />
+        <option value="$PROJECT_DIR$/../testDB/database/migrations/2014_10_12_000000_create_users_table.php" />
+        <option value="$PROJECT_DIR$/../testDB/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2021_06_15_133342_create_langue.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2021_06_22_131805_administrateurs.php" />
+        <option value="$PROJECT_DIR$/.env" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
+    <option name="height" value="775" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="IVOIRJOB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IVOIRJOB" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../testDB" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\IVOIRJOB\public\assets\css" />
+      <recent name="C:\xampp\htdocs\IVOIRJOB\resources\views\errors" />
+      <recent name="C:\Users\KOUEVIDJIN MIGUEL\Desktop\FRONT END IVOIRJOB\dashmix-32\Dashmix 3.2 by pixelcave\02 - Dashmix Source (HTML)\src\FINAL PAGES" />
+      <recent name="C:\Users\KOUEVIDJIN MIGUEL\Desktop\FRONT END IVOIRJOB\dashmix-32\Dashmix 3.2 by pixelcave\02 - Dashmix Source (HTML)\src\FINAL PAGES\assets\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e196ec7-6d72-4ccc-8d04-53676e80b264" name="Default" comment="" />
+      <created>1622554816065</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622554816065</updated>
+      <workItem from="1626954388225" duration="492000" />
+      <workItem from="1626983149982" duration="1167000" />
+      <workItem from="1627063917908" duration="51000" />
+      <workItem from="1627221089589" duration="239000" />
+      <workItem from="1627327014763" duration="2122000" />
+      <workItem from="1627379524253" duration="3129000" />
+      <workItem from="1627383965796" duration="519000" />
+      <workItem from="1627394027105" duration="3015000" />
+      <workItem from="1627462249404" duration="12562000" />
+      <workItem from="1627548698027" duration="6795000" />
+      <workItem from="1627638455765" duration="6597000" />
+      <workItem from="1627645487304" duration="1330000" />
+      <workItem from="1627735425402" duration="4939000" />
+      <workItem from="1627894984842" duration="2907000" />
+      <workItem from="1627898602982" duration="3616000" />
+      <workItem from="1627979323738" duration="3218000" />
+      <workItem from="1627985907227" duration="5865000" />
+      <workItem from="1628151155801" duration="2835000" />
+      <workItem from="1628155153193" duration="9295000" />
+      <workItem from="1628237649244" duration="3936000" />
+      <workItem from="1628241817242" duration="1460000" />
+      <workItem from="1628504256662" duration="845000" />
+      <workItem from="1639839075306" duration="605000" />
+      <workItem from="1644970763497" duration="86000" />
+      <workItem from="1649197480211" duration="651000" />
+      <workItem from="1649237656845" duration="1790000" />
+      <workItem from="1649244060465" duration="96000" />
+      <workItem from="1649600945696" duration="2294000" />
+      <workItem from="1650025072144" duration="6776000" />
+      <workItem from="1650102893584" duration="615000" />
+      <workItem from="1650104426925" duration="3896000" />
+      <workItem from="1650109514010" duration="832000" />
+      <workItem from="1650113099335" duration="290000" />
+    </task>
+    <task id="LOCAL-00001" summary="maj du 22/07/2021">
+      <created>1626954821128</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1626954821128</updated>
+    </task>
+    <task id="LOCAL-00002" summary="maj du 06/08/2021 Version potable">
+      <created>1628242070534</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1628242070534</updated>
+    </task>
+    <task id="LOCAL-00003" summary="maj du 06/08/2021 Version potable">
+      <created>1628242825379</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1628242825379</updated>
+    </task>
+    <task id="LOCAL-00004" summary="maj du 06/08/2021 Version potable">
+      <created>1628242861616</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1628242861616</updated>
+    </task>
+    <task id="LOCAL-00005" summary="maj du 06/08/2021 Version potable">
+      <created>1628504500628</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1628504500628</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="94865000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21742313" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935917" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="maj du 22/07/2021" />
+    <MESSAGE value="maj du 06/08/2021 Version potable" />
+    <option name="LAST_COMMIT_MESSAGE" value="maj du 06/08/2021 Version potable" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="34" column="74" lean-forward="false" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
+    <entry file="file://$PROJECT_DIR$/../testDB/database/migrations/2014_10_12_000000_create_users_table.php" />
+    <entry file="file://$PROJECT_DIR$/../testDB/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
+    <entry file="file://$PROJECT_DIR$/../testDB/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
+    <entry file="file://$PROJECT_DIR$/../testDB/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_06_03_094627_rename_mot_de_passe__candidat_in_password.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_06_03_095822_rename_nom__candidat_in_nom_candidat.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_06_03_110912_reset_password_candidat.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_06_02_140431_candidat.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_06_05_144957_formation.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_06_05_163845_change_size_of_permis_candidat.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_06_05_212432_add_foreignkeyto_formation.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_06_08_115050_change_size_of_intitule__formation.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_06_09_111219_create_documents_table.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_06_11_143129_experience_professionnelle.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_06_13_180334_change_statut_matrimonial_lenght.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_06_15_090343_create_certificationtable.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_06_15_101935_create_compétences.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_06_15_133342_create_langue.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_06_15_133951_create_parle.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_06_22_130233_new_group.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_06_22_131805_administrateurs.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_06_22_140829_fiche_poste.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_06_22_160142_quizz.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_06_23_152613_parties.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_06_24_112952_change_partie_descritpion_size.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_06_23_190710_questions.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_06_24_113750_change_question_time_stamp.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_06_24_150925_create_proposition.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_06_24_230653_create_suivis.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_06_24_230215_create_etapes.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_06_24_224226_create_soumissions.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_06_25_103757_create_acces.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_06_25_103238_create_fonctionnalites.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_06_25_105253_change_libelle_fonctionnalite_size.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_06_25_111943_change_intitule_fonctionnalite.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_06_27_071852_create_criteres.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_07_09_120702_change_description_fiche_type.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_07_09_145842_add_mini_mum_mark_to_quiz.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_07_13_113457_change_niveau_langue_nullable.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_07_21_092518_change_libelle_question_size.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_07_28_085924_add_groupe_to_candidate.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_06_30_114102_add_photo_to_proposition.php" />
+    <entry file="file://$PROJECT_DIR$/storage/app/public/57AnhHM4F0jhOZ5zmvf11S7CXthq4l2SJtF5Tqqi.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/app/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeders/CandidateSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="35" column="6" lean-forward="true" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.example">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
