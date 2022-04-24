@@ -180,6 +180,8 @@ Route::get('/Admin/Entretien/DisapproveCandidate/{id_suivi}', [AdministrateurCon
 Route::get('/Admin/Entretien/ApproveCandidate/{id_suivi}', [AdministrateurControlleur::class, 'ApproveCandidate'])->middleware('auth:administrateur')->name('ApproveCandidate');                                             //Route to SHOW schedule interviews details
 Route::post('/Admin/Entretien/Mark/{id_suivi}', [AdministrateurControlleur::class, 'EvaluateCandidate'])->middleware('auth:administrateur')->name('EvaluateCandidate');                                             //Route to mark a candidate who have passed an interview
 
+Route::get('/Admin/Log', [AdministrateurControlleur::class, 'Show_Log_Page'])->middleware('auth:administrateur')->name('ShowLogPage');                                                       //Route to show Logs page
+
 
 Route::get('/DECONNEXION',[CandidatController::class,'Logout_Candidate'])->name('DECONNEXION');
 

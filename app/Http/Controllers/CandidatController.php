@@ -121,14 +121,12 @@ class CandidatController extends Controller
 
     }
 
-
     //function to return IVOIRJOB candidates form page to registrer
     public function show_Connexion_Page_Candidate(){
 
         return view('Candidat.connexion');
 
     }
-
 
     //function to authenticate IVOIRJOB candidates and redirect them to their dashboard Pages
     public function login_Candidate(Request $request){
@@ -149,7 +147,6 @@ class CandidatController extends Controller
             'E-mail' => "Vos identifiants sont incorrects.",
         ]);
     }
-
 
     //function to register Candidates type hint
     public function Register_Candidate(Request $request){
@@ -179,7 +176,6 @@ class CandidatController extends Controller
             return redirect('/Candidat/login');
         }
 
-
     //function to return IVOIRJOB candidates Dashboard page
     public function Tableau_de_bord_Candidate(){
 
@@ -207,7 +203,6 @@ class CandidatController extends Controller
 
     }
 
-
     //function to return IVOIRJOB candidates settings page
     public function Parametres_Candidate(){
         //if candidate account is lock
@@ -223,7 +218,6 @@ class CandidatController extends Controller
         return view('Candidat.parametres');
 
     }
-
 
     //function to return IVOIRJOB candidates Profil page
     public function Profil_Candidate(){
@@ -251,7 +245,6 @@ class CandidatController extends Controller
         return view('Candidat.profil', [ 'formations'=>$formations, 'documents' => $documents, 'experiences' => $experiences, 'certifications' => $certifications, 'competences' => $competences, 'langues' => $langues, 'parles'  => $parles]);
     }
 
-
     //function to return IVOIRJOB candidates offers page
     public function Offres_Candidate(){
         if(Auth::user()->statut_Candidat){
@@ -261,7 +254,6 @@ class CandidatController extends Controller
         return view('Candidat.offres',['fiches' => $fiches]);
 
     }
-
 
     //function to modify candidate's password
     public function ModifyPasswordCandidate(Request $request){
@@ -382,7 +374,6 @@ class CandidatController extends Controller
 
     }
 
-
     //function to register IVOIRJOB candidates Formations
     public function RegistrerCandidateFormation(Request $request){
 
@@ -418,7 +409,6 @@ class CandidatController extends Controller
         return redirect()->route('Profil_candiat')->withErrors($validate_data, 'RegisterFormation');
     }
 
-
     //function to delete a formation add by the candidate
     public function DeleteCandidateFormation($id){
 
@@ -433,7 +423,6 @@ class CandidatController extends Controller
         //Redirect the candidat to his profil
         return redirect()->route('Profil_candiat');
     }
-
 
     //function to modify a formation add by the candidate
     public function ModifyCandidateFormation($id, Request $request){
@@ -490,7 +479,6 @@ class CandidatController extends Controller
         return redirect()->route('Profil_candiat');
     }
 
-
     //function to register IVOIRJOB candidates professional experiecence
     public function RegistrerCandidateProfessionalExperience(Request $request){
 
@@ -532,7 +520,6 @@ class CandidatController extends Controller
         return redirect()->route('Profil_candiat');
     }
 
-
     //function to delete a professional experiecence add by the candidate
     public function DeleteCandidateProfessionalExperience($id){
 
@@ -547,7 +534,6 @@ class CandidatController extends Controller
         //Redirect the candidat to his profil
         return redirect()->route('Profil_candiat');
     }
-
 
     //function to modify a professional experiecence add by the candidate
     public function ModifyCandidateProfessionalExperience($id, Request $request){
@@ -622,7 +608,6 @@ class CandidatController extends Controller
         return redirect()->route('Profil_candiat');
     }
 
-
     //function to register IVOIRJOB candidates Certifications
     public function RegistrerCandidateCertification(Request $request){
 
@@ -653,7 +638,6 @@ class CandidatController extends Controller
         return redirect()->route('Profil_candiat');
     }
 
-
     //function to delete a Certification add by the candidate
     public function DeleteCandidateCertification($id){
 
@@ -668,7 +652,6 @@ class CandidatController extends Controller
         //Redirect the candidat to his profil
         return redirect()->route('Profil_candiat');
     }
-
 
     //function to modify a Certification add by the candidate
     public function ModifyCandidateCertification($id, Request $request){
@@ -741,7 +724,6 @@ class CandidatController extends Controller
         return redirect()->route('Profil_candiat');
     }
 
-
     //function to delete a skill add by the candidate
     public function DeleteCandidateCompetence($id){
 
@@ -756,7 +738,6 @@ class CandidatController extends Controller
         //Redirect the candidat to his profil
         return redirect()->route('Profil_candiat');
     }
-
 
     //function to modify a skill add by the candidate
     public function ModifyCandidateCompetence($id, Request $request){
@@ -792,7 +773,6 @@ class CandidatController extends Controller
         return redirect()->route('Profil_candiat');
     }
 
-
     //function to register IVOIRJOB candidates Documents
     public function RegistrerCandidateDocument(Request $request){
 
@@ -819,7 +799,6 @@ class CandidatController extends Controller
         return redirect()->route('Profil_candiat');
     }
 
-
     //function to delete a document add by the candidate
     public function DeleteCandidateDocument($id){
 
@@ -836,7 +815,6 @@ class CandidatController extends Controller
         //Redirect the candidat to his profil
         return redirect()->route('Profil_candiat');
     }
-
 
     //function to modify a document add by the candidate
     public function ModifyCandidateDocument($id, Request $request){
@@ -868,7 +846,6 @@ class CandidatController extends Controller
         //Redirect the candidate to his profile page
         return redirect()->route('Profil_candiat');
     }
-
 
     //function to download candidate document
     public function DownloadCandidateDocument($id){
@@ -912,7 +889,6 @@ class CandidatController extends Controller
         return redirect()->route('Profil_candiat');
     }
 
-
     //function to delete a language add by the candidate
     public function DeleteCandidateLangue($id){
 
@@ -928,7 +904,6 @@ class CandidatController extends Controller
         return redirect()->route('Profil_candiat');
     }
 
-
     //function to logout authenticated IVOIRJOB candidates
     public function Logout_Candidate(Request $request){
             Auth::logout();
@@ -936,7 +911,6 @@ class CandidatController extends Controller
             $request->session()->regenerateToken();
             return redirect('/');
         }
-
 
     //Candidate submit to a job offer only if he haven't do it earlier
     public function SoummissionOffre($idFiche){
@@ -960,7 +934,6 @@ class CandidatController extends Controller
             return redirect()->route('Offres_candiat');
        }
     }
-
 
     //function to show quiz to a candidate
     public function ShowQuiz($linkQuiz){
@@ -1020,11 +993,6 @@ class CandidatController extends Controller
 
         return redirect()->route('Tableau_de_bord_candiat');
 
-    }
-
-    public function SendEmail(){
-        $candidat = Candidat::find(1);
-        Mail::to($candidat->e_mail_Candidat)->send(new CandidateMail($candidat));
     }
 
 }

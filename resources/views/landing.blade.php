@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -81,6 +81,7 @@
 
     </header>
     <!-- END Header -->
+
     <div class="line-left"></div>
     <!-- Main Container -->
     <main id="main-container">
@@ -102,98 +103,72 @@
                         </li>
                     <!-- END Menu -->
                 </div>
+                <form method = "post" action = "{{Route('ShowLandingPageRetrieve')}}">
+                    @csrf
+                    <div class="row justify-content-center">
+                        <div class="col-10 col-md-3 col-xl-3 col-sm-3 col-lg-3 mt-2">
+                            <select class="form-control" id="example-select" name="type_offre">
+                                <option value="AUCUN">Type d'offre</option>
+                                <option value="CDD">CDD</option>
+                                <option value="CDI">CDI</option>
+                                <option value="STAGE">STAGE</option>
+                            </select>
+                        </div>
+                        <div class="col-10 col-md-3 col-xl-3 col-sm-3 col-lg-3 mt-2">
+                            <input type="date" class="form-control" placeholder="date_limite" name="date_limite_de_soumission" min="now">
+                        </div>
+                        <div class="col-10 col-md-3 col-xl-3 col-sm-3 col-lg-3 mt-2">
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="example-group2-input2" placeholder="Rechercher une offre" name="recherche_offre">
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-1 col-xl-1 col-sm-1 col-lg-1 mt-2">
+                            <div class="input-group">
+                                <button type="submit" class="btn btn-hero-success"><span><i class="fa fa-search mr-1"></i></span></button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
                 @if(empty($formatFiches[0]))
                     <div class="row justify-content-center">
                             <div class="col-md-5 pt-8 pb-10 font-w700">
                                 LES OFFRES SONT INDISPONIBLES POUR LE MOMENT
                             </div>
                     </div>
-<<<<<<< HEAD
                 @else
-                    <form method = "post" action = "{{Route('ShowLandingPageRetrieve')}}">
-                        @csrf
-                        <div class="row justify-content-center">
-                            <div class="col-10 col-md-3 col-xl-3 col-sm-3 col-lg-3 mt-2">
-                                <select class="form-control" id="example-select" name="type_offre">
-                                    <option value="AUCUN">Type d'offre</option>
-                                    <option value="CDD">CDD</option>
-                                    <option value="CDI">CDI</option>
-                                    <option value="STAGE">STAGE</option>
-                                </select>
-                            </div>
-                            <div class="col-10 col-md-3 col-xl-3 col-sm-3 col-lg-3 mt-2">
-                                <input type="date" class="form-control" placeholder="date_limite" name="date_limite_de_soumission" min="now">
-                            </div>
-                            <div class="col-10 col-md-3 col-xl-3 col-sm-3 col-lg-3 mt-2">
-                                <div class="input-group">
-                                    <input type="text" class="form-control" id="example-group2-input2" placeholder="Rechercher une offre" name="recherche_offre">
-                                </div>
-                            </div>
-                            <div class="col-3 col-md-1 col-xl-1 col-sm-1 col-lg-1 mt-2">
-                                <div class="input-group">
-                                    <button type="submit" class="btn btn-hero-success"><span><i class="fa fa-search mr-1"></i></span></button>
-                                </div>
-                            </div>
-=======
-                </form>
-                <div class=" pt-4 pt-lg-5 text-center">
-                    <h1 class="font-w800 mb-2 title">
-                        Retrouvez votre offre d'emploi
-                    </h1>
-                </div>
-                <div class="row justify-content-center">
-                @if(!empty($formatFiches))
-                    @foreach($formatFiches as $fiches)
-                                    <div class="col-md-5">
-                                        <div class="block block-rounded">
-                                            <div class="block-content">
-                                                <h3 class="font-w700"> {{$fiches->libelle_Fiche}} </h3>
-                                                <h5 class="font-w700">Date limite de soumission : {{$fiches->format_limite_date}} </h5>
-                                                <h5 class="font-w700">Type de contrat : {{$fiches->type_Offre}} </h5>
-                                                <p class="font-w600 text-justify">{{$fiches->description_Fiche}}</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                        @endforeach
-                 @endif
->>>>>>> ea48bde242cea1a914dd00fc41c6ffe7589315a5
-                        </div>
-                    </form>
                     <div class=" pt-4 pt-lg-5 text-center">
                         <h1 class="font-w800 mb-2 title">
                             Retrouvez votre offre d'emploi
                         </h1>
                     </div>
                     <div class="row justify-content-center">
-                            @foreach($formatFiches as $fiches)
-                                            <div class="col-md-5">
-                                                <div class="block block-rounded">
-                                                    <div class="block-content">
-                                                        <h3 class="font-w700"> {{$fiches->libelle_Fiche}} </h3>
-                                                        <h5 class="font-w700">Date limite de soumission : {{$fiches->format_limite_date}} </h5>
-                                                        <h5 class="font-w700">Type de contrat : {{$fiches->type_Offre}} </h5>
-                                                        <p class="font-w600 text-justify">{{$fiches->description_Fiche}}</p>
-                                                    </div>
+                    @if(!empty($formatFiches))
+                        @foreach($formatFiches as $fiches)
+                                        <div class="col-md-5">
+                                            <div class="block block-rounded">
+                                                <div class="block-content">
+                                                    <h3 class="font-w700"> {{$fiches->libelle_Fiche}} </h3>
+                                                    <h5 class="font-w700">Date limite de soumission : {{$fiches->format_limite_date}} </h5>
+                                                    <h5 class="font-w700">Type de contrat : {{$fiches->type_Offre}} </h5>
+                                                    <p class="font-w600 text-justify">{{$fiches->description_Fiche}}</p>
                                                 </div>
                                             </div>
+                                        </div>
                             @endforeach
-
+                     @endif
                     </div>
-                    <div class="row justify-content-center plusButton mb-7">
-                        <a href="{{Route('Show_connexion_candiat')}}">
-                            <button type="button" class="btn btn-hero-warning">PLUS</button>
-                        </a>
+                        <div class="row justify-content-center plusButton mb-7">
+                            <a href="{{Route('Show_connexion_candiat')}}">
+                                <button type="button" class="btn btn-hero-warning">PLUS</button>
+                            </a>
+                        </div>
                     </div>
                 @endif
-        </div>
+            </div>
         <!-- END Hero -->
 
-
-
-        </div>
     </main>
     <!-- END Main Container -->
-</div>
 
 <script src="assets/js/dashmix.core.min.js"></script>
 
@@ -207,6 +182,6 @@
 
 <!-- Page JS Plugins -->
 <script src="assets/js/plugins/jquery-sparkline/jquery.sparkline.min.js"></script>
-
+</div>
 </body>
 </html>

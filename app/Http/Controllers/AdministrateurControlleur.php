@@ -11,6 +11,7 @@ use App\Models\Etape;
 use App\Models\FichePoste;
 use App\Models\Fonctionnalite;
 use App\Models\Group;
+use App\Models\Log;
 use App\Models\Partie;
 use App\Models\Proposition;
 use App\Models\Question;
@@ -942,7 +943,6 @@ class AdministrateurControlleur extends Controller
         return redirect()->back();
     }
 
-
     //Function to evaluate a candidate after a interview
     public function EvaluateCandidate($id_suivi, Request $request){
 
@@ -985,7 +985,6 @@ class AdministrateurControlleur extends Controller
         $suivi->save();
         return redirect()->route('ShowScheduleEntretien');
     }
-
 
     //function to modify an existing Question
     public function ModifyQuestion($id, Request $request){
@@ -1094,7 +1093,6 @@ class AdministrateurControlleur extends Controller
         return redirect()->back();
     }
 
-
     //function to modify an existing Proposition
     public function ModifyProposition($id, Request $request){
 
@@ -1148,7 +1146,6 @@ class AdministrateurControlleur extends Controller
         //Redirect Admin to Quiz Page
         return redirect()->back();
     }
-
 
     //function to register acces for a group
     public function RegistrerAccesGroup($idGroup,Request $request){
@@ -1531,9 +1528,12 @@ class AdministrateurControlleur extends Controller
         return redirect()->back();
     }
 
-
     //function to trigger a quiz
     public function TriggerQuiz($idQuiz){
+        if(Auth::user()->cannot('ActOnQuiz')){
+            abort(403);
+        }
+
         $idquiz = Quiz::find($idQuiz);
         $fiche = $idquiz->fichePoste;
         foreach($fiche->Soumissions as $soumission){
@@ -1547,6 +1547,15 @@ class AdministrateurControlleur extends Controller
         }
 
         return redirect()->back();
+    }
+
+    public function Show_Log_Page(){
+        if(Auth::user()->cannot('ActOnLogs')){
+            abort(403);
+        }
+
+        $Logs = Log::all();
+        return view('Administrateur.log',['Logs'  => $Logs]);
     }
 
 }

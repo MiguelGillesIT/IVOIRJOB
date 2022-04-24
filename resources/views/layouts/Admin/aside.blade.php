@@ -96,14 +96,14 @@
                         </li>
                     @endcan
 
-                        @can('ActOnLogs')
+                    @can('ActOnLogs')
                             <li class="nav-main-item">
-                                <a class="nav-main-link" href="#">
+                                <a class="nav-main-link" href="{{Route('ShowLogPage')}}">
                                     <i class="nav-main-link-icon nav-icon fa fa-clipboard-list"></i>
                                     <span class="nav-main-link-name">Logs</span>
                                 </a>
                             </li>
-                        @endcan
+                    @endcan
 
                 </ul>
             </div>

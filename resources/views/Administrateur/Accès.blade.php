@@ -25,7 +25,7 @@
                     <div class="py-3">
                         <div class="form-group row justify-content-center">
                         @foreach($fonctionnalites as $fonctionnalite)
-                                <div class="ml-sm-2 col-2">
+                                <div class="ml-sm-1 col-7 col-sm-4 col-md-5 col-lg-4 col-xl-2">
                                     <div class="input-group">
                                         <div class="custom-checkbox custom-control custom-control-inline custom-control-lg">
                                             <input class="custom-control-input" type="checkbox" id="{{Str::lower($fonctionnalite->libelle)}}{{$loop->parent->iteration}}" @if(in_array($fonctionnalite->libelle,$fonctionnalites_Groupes[$key]))checked @endif  name="{{$fonctionnalite->libelle}}" value="{{$fonctionnalite->libelle}}">
