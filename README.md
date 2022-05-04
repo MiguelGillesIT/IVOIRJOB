@@ -10,11 +10,11 @@ Technologies used are :
 * LARAVEL
 
 ## INSTALLATION
-1. Install Composer on your computer.
+1. Install Composer on your computer by following this [link](https://getcomposer.org/download/).
 
 2. Clone the repository.
 ```
-git clone 
+git clone  https://github.com/MiguelGillesIT/IVOIRJOB.git
 ```
 
 3. In command line go to the project directory and type.
