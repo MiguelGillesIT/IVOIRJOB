@@ -32,8 +32,17 @@ php artisan migrate
 7. Fill the database by uploading IVOIRJOB.sql  in **IVOIRJOB** database. The file is available in root directory of the project.
 
 ## USAGE
-* Log yourself after filling  **userbiblio** table specifically e-mail,password and created time fields. The password must be hashed with bcrypt algorithm. Use the following link to hash the password [Bcrypt.online](https://bcrypt.online/).
+
+### For first login in admin space:
+* Go on /Admin/Login URL and type fakeAdmin@gmail.com and fakeAdminPassword as credentials to log yourself.
+* Create a new admin account 
+* Disconnect yourself
+* Log yourself with your new account
+* Delete the previous one for security purposes.
+
+You're now ready to fully use IVOIRJOB. I hope you will have fun while using it 👍.
 
 ## AUTHORS
 
 * [KOUEVIDJIN MIGUEL](https://github.com/MiguelGillesIT)
+If you find any errors you can contact me. I'm open to any suggestions. 😉
