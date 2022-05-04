@@ -12,7 +12,10 @@ Technologies used are :
 ## INSTALLATION
 1. Install Composer on your computer.
 
-2. Clone the repository
+2. Clone the repository.
+```
+git clone 
+```
 
 3. In command line go to the project directory and type.
 
@@ -35,9 +38,9 @@ php artisan migrate
 
 ### For first login in admin space:
 * Go on /Admin/Login URL and type fakeAdmin@gmail.com and fakeAdminPassword as credentials to log yourself.
-* Create a new admin account 
-* Disconnect yourself
-* Log yourself with your new account
+* Create a new admin account.
+* Disconnect yourself.
+* Log yourself with your new account.
 * Delete the previous one for security purposes.
 
 You're now ready to fully use IVOIRJOB. I hope you will have fun while using it 👍.
