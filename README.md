@@ -19,8 +19,9 @@ Technologies used are :
 ```
 composer update
 ```
-4. Create a .env file, copy entirely the .env.example file and update database name,
-5.  Create database **IVOIRJOB**.
+4. Create a .env file, copy entirely the .env.example file and update DB_DATABASE,DB_USERNAME,DB_PASSWORD and password parameters to fit to your application 
+
+6.  Create database **IVOIRJOB**.
 
 6. Then run the following command to create tables.
 
