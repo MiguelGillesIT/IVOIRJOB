@@ -2,7 +2,12 @@
 # IVOIRJOB
 
 ## DESCRIPTION
-IVOIRJOB is a project written with LARAVEL HTML AND CSS and JS. It will help entreprise to manage their recrutment process.
+IVOIRJOB will help entreprise to manage their recrutment process by editing and publishing job offers to candidates. IVOIRJOB can also  provide quizzes to candidate to evaluate them and then participate to online interviews to end recrutment process.
+Technologies used are :
+* HTML
+* CSS
+* JAVASCRIPT
+* LARAVEL
 
 ## INSTALLATION
 1. Install Composer on your computer.
@@ -22,11 +27,11 @@ composer update
 php artisan migrate
 ```
 
-6. Fill the database by uploading IVOIRJOB.sql  in **IVOIRJOB** database.
+6. Fill the database by uploading IVOIRJOB.sql  in **IVOIRJOB** database. The file is available in root directory of the project.
 
 
 ## USAGE
-* Log yourself with e-mail and password from **userbiblio** table.
+* Log yourself after filling  **userbiblio** table specifically e-mail,password and created time fields. The password must be hashed with bcrypt algorithm. Use the following link to hash the password [Bcrypt.online](https://bcrypt.online/).
 
 ## AUTHORS
 
