@@ -19,16 +19,16 @@ Technologies used are :
 ```
 composer update
 ```
-4.  Create database **IVOIRJOB**.
+4. Create a .env file, copy entirely the .env.example file and update database name,
+5.  Create database **IVOIRJOB**.
 
-5. Then run the following command to create tables.
+6. Then run the following command to create tables.
 
 ```
 php artisan migrate
 ```
 
-6. Fill the database by uploading IVOIRJOB.sql  in **IVOIRJOB** database. The file is available in root directory of the project.
-
+7. Fill the database by uploading IVOIRJOB.sql  in **IVOIRJOB** database. The file is available in root directory of the project.
 
 ## USAGE
 * Log yourself after filling  **userbiblio** table specifically e-mail,password and created time fields. The password must be hashed with bcrypt algorithm. Use the following link to hash the password [Bcrypt.online](https://bcrypt.online/).
