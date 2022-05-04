@@ -2,7 +2,7 @@
 # IVOIRJOB
 
 ## DESCRIPTION
-IVOIRJOB will help entreprise to manage their recrutment process by editing and publishing job offers to candidates. IVOIRJOB can also  provide quizzes to candidate to evaluate them and then participate to online interviews to end recrutment process.
+IVOIRJOB will help entreprise to manage their recrutment process by editing and publishing job offers to candidates. IVOIRJOB can also  provide quizzes to candidate to evaluate them and then participate to online interviews to end recrutment process.			
 Technologies used are :
 * HTML
 * CSS
