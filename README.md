@@ -50,4 +50,6 @@ You're now ready to fully use IVOIRJOB. I hope you will have fun while using it 
 ## AUTHORS
 
 * [KOUEVIDJIN MIGUEL](https://github.com/MiguelGillesIT)
+
+## CONTRIBUTIONS
 If you find any errors you can contact me. I'm open to any suggestions. 😉
