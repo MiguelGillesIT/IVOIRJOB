@@ -17,7 +17,7 @@ git clone  https://github.com/MiguelGillesIT/IVOIRJOB.git
 ```
 composer update
 ```
-4. Create a .env file, copy entirely the .env.example file and update DB_DATABASE,DB_USERNAME,DB_PASSWORD and password parameters to fit to your application 
+4. Create a .env file, copy entirely the .env.example file and update DB_DATABASE,DB_USERNAME,DB_PASSWORD and password parameters to fit to your application. 
 5. Generate an APP key 
 ```
 php artisan key:generate
@@ -31,7 +31,7 @@ php artisan migrate
 ```
 
 8. Fill the database by uploading IVOIRJOB.sql  in **IVOIRJOB** database. The file is available in root directory of the project.
-9. Delete IVOIRJOB.sql in the root of the project directory
+9. Delete IVOIRJOB.sql in the root of the project directory.
 
 ## USAGE
 Run app with
